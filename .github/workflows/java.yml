@@ -17,6 +17,5 @@ jobs:
         java-version: '17'
         distribution: temurin
     - name: Compile
-      run: |
-        cd java
-        javac *.java
+      working-directory: java
+      run: javac *.java
