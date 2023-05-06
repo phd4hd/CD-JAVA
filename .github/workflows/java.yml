@@ -2,8 +2,6 @@ name: Compile Java File
 
 on:
   push:
-    branches: ["main"]
-    paths: 'java'
 
 jobs:
   compile:
