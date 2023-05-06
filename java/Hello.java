@@ -1,6 +1,7 @@
 
 public class Hello {
 	public static void main(String[] args) {
-		System.out.println("Hello again, next try!?");
+		System.out.println("Vielen Dank für Ihren Einkauf!");
+		System.out.println("Können wir Ihnen weitere Produkte empfehlen?");
 	}
 }
