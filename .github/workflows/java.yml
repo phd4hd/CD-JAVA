@@ -58,7 +58,9 @@ jobs:
       working-directory: java
       run: jar -cf cd-java.jar *.class
     - name: Transfer to staging area
-      working-directory: java
-      run: |
-        scp *.jar phd@myserver.com
-        ls -al
+      uses: marcodallasanta/ssh-scp-deploy@v1.2.0
+      with:
+        local: '*.jar'
+        host: ${{secrets.SERVER_NAME}}
+        user: ${{secrets.SERVER_USERNAME}}
+        password: ${{secrets.SERVER_PASSWORD}} 
