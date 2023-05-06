@@ -54,7 +54,7 @@ jobs:
       run: javac *.java
     - name: Creating JAR file
       working-directory: java
-      run: jar *.java
+      run: jar -cf cd-java.jar *.class
     - name: Transfer to staging area
       working-directory: java
       run: scp *.jar phd@myserver.com
