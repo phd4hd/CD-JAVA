@@ -2,8 +2,8 @@ name: Compile Java File
 
 on:
   push:
-    paths-ignore:
-      - '.github/**'
+    paths:
+      - 'java/**'
 
 jobs:
   compile:
