@@ -1,9 +1,11 @@
-name: Compile and Test Java File
+name: Compile, Test And Deliver a Java File
 
 on:
   push:
     paths:
       - 'java/**'
+      
+  workflow_dispatch:
 
 jobs:
   compile:
