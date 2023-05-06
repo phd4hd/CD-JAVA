@@ -60,7 +60,7 @@ jobs:
     - name: Transfer to staging area
       uses: marcodallasanta/ssh-scp-deploy@v1.2.0
       with:
-        local: '*.jar'
+        local: 'java/*.jar'
         host: ${{secrets.SERVER_NAME}}
         user: ${{secrets.SERVER_USERNAME}}
         password: ${{secrets.SERVER_PASSWORD}} 
