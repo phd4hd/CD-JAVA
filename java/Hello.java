@@ -2,6 +2,6 @@
 public class Hello {
 	public static void main(String[] args) {
 		System.out.println("Vielen Dank für Ihren Einkauf!");
-		System.out.println("Können wir Ihnen vielleicht weitere Prodkte empfehlen?");
+		System.out.println("Können wir Ihnen vielleicht weitere Produkte empfehlen?");
 	}
 }
