@@ -1,2 +1,2 @@
 # CD-JAVA
-Ein einfaches Beispiel für CD in Java
+Ein einfaches Beispiel für Continuous Delivery in Java
